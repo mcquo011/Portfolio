@@ -398,7 +398,7 @@ aside {
   height: 600px;
   width: 100%;
  /* margin-bottom: 25px; */
-  background-image: url("./images/Rocks.jpg");
+  background-image: url("./assets/images/Rocks.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -24,13 +24,9 @@ HTML and CSS style sheet by Maggie McQuown.
 
 ## Screenshot
 
-Gif of my website
-
-![Alt text](/Assets/images/My%20Portfolio.gif?raw=true "Screenshot of App")
-
 Image showing responsive layout
 
-![Alt text](/Assets/images/responsive.png?raw=true "Screenshot of App")
+![Alt text](/assets/images/responsive.png?raw=true "Screenshot of App in Responsive layout")
 
 ## License
 
