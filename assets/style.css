@@ -18,12 +18,23 @@ a {
 }
 
 aside {
-  text-align: center;
-  width: 80%;
-  margin-left: 100px;
-  margin-top: -100px;
+  text-align: left;
+  width: 90%;
+  margin-left: 45px;
+  margin-top: -130px;
   font-size: 25px;
+  font-weight: 100px;
+  background-color: darkslategray;
+  background-image:
+    linear-gradient(
+      to top right, 
+      darkslategray, lightgrey
+    );
+  opacity: 0.9;
+  border: solid darkslategrey;
+  padding: 20px;
 }
+
 
 .header {
   padding: 20px;
@@ -117,7 +128,7 @@ aside {
 .about::after {
   content: attr(title);
   position: absolute;
-  top: 1.4em;
+  top: 1.6em;
   left: 0;
   font-size: 35px;
   text-transform: uppercase;
@@ -129,17 +140,25 @@ aside {
 .work {
   position: relative;
   font-size: 40px;
+  margin-top: 50px;
 }
 
 .work::after {
   content: attr(title);
   position: absolute;
-  top: 1.4em;
+  top: 1.6em;
   left: 0;
   font-size: 35px;
   text-transform: uppercase;
   text-indent: 20px;
   color: darkslategray;
+}
+
+.work h2 {
+  font-size: 40px;
+  padding-bottom: 3px;
+  margin-bottom: 200px;
+  position: relative;
 }
 /* class for "contact me" header */
 
@@ -150,7 +169,7 @@ aside {
 .contact::after {
   content: attr(title);
   position: absolute;
-  top: 1.4em;
+  top: 1.6em;
   left: 0;
   font-size: 35px;
   text-transform: uppercase;
@@ -164,13 +183,6 @@ aside {
   height: 12%;
   width: 100%;
   left: 0%;
-}
-
-.work h2 {
-  font-size: 40px;
-  padding-bottom: 3px;
-  margin-bottom: 200px;
-  position: relative;
 }
 
 /* code for image grid */
@@ -298,15 +310,35 @@ form .submit:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 950px) {
-   .container {
-  /*display: flex; */
-  /*flex-wrap: wrap;*/
-  /*justify-content: space-between;*/
-  margin: 50px; 
-  margin-left: 0px;
-   }
+.footer {
+  background-color: darkslategrey;
+  height: 70px;
+  opacity: 0.8;
+}
 
+.footer h2 {
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 13px;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+   } 
+
+
+@media screen and (max-width: 950px) {
     .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -332,32 +364,38 @@ form .submit:hover {
     Arial, sans-serif;
   background-color: rgb(48, 80, 80);
   color: #f5fffa;
-  /*position: fixed;*/
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 300px;
+  height: 250px;
 }
 
 .main {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: flex-start;*/
   margin: 20px;
   height: 400px;
   width: 100%;
 }
 
+.main h2 {
+  margin-bottom: 190px;
+  position: relative;
+}
+
 aside {
-  text-align: center;
-  width: 100%; 
-  margin-left: 10px;
-  /*margin-top: 100px; */
+  text-align: left;
+  width: 60%;
+  height: 80%;
+  padding: 10px;
   font-size: 15px;
+  background-color: darkslategray;
+  background-image:
+    linear-gradient(
+      to top right, 
+      darkslategray, lightgrey
+    );
+  opacity: 0.9;
+  border: solid darkslategrey;
 }
 
 .me {
-  height: 700px;
+  height: 600px;
   width: 100%;
  /* margin-bottom: 25px; */
   background-image: url("./images/Rocks.jpg");
@@ -365,33 +403,22 @@ aside {
   background-position: center;
 }
 
+.work h2 {
+  font-size: 40px;
+  padding-bottom: 3px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
 form {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  font-family: sans-serif;
-  /*margin-top: -400px; */
+  margin-bottom: 0px;
+  margin-top: -250px;
 }
 
 .form-control {
   width: 200px;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid darkslategray;
-  color: black;
-  font-size: 18px;
   margin-bottom: 80px;
   text-align: center;
-}
-
-.work {
-  font-size: 40px;
-  /*padding-bottom: 3px;
-  margin-bottom: 200px;
-  position: relative; */
 }
 
 .main h2, .hl {
@@ -400,16 +427,10 @@ form {
   height: 12%;
   width: 100%;
   left: 0%;
-
 }
 
 }
 
-@media screen and (max-width: 950px) {
-   .content {
-    grid-template-columns: repeat(1, 1fr);
-   }
-}
   
 
 
