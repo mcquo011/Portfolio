@@ -26,11 +26,11 @@ HTML and CSS style sheet by Maggie McQuown.
 
 Gif of my website
 
-![Alt text](/MyWork/images/My%20Portfolio.gif "Screenshot of App")
+![Alt text](/Assets/MyWork/images/My%20Portfolio.gif "Screenshot of App")
 
 Image showing responsive layout
 
-![Alt text](/MyWork/images/responsive.png "Screenshot of App")
+![Alt text](/Assets/MyWork/images/responsive.png "Screenshot of App")
 
 ## License
 
