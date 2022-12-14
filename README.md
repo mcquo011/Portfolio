@@ -16,7 +16,7 @@ Used git clone to connect my repo to my local device.
 
 Use this site to learn more about me, access my projects through out my Bootcamp course, and to contact me. This page can also be used to access my github and linkedin profiles.
 
-Link to application: https://mcquo011.github.io/HTML-CSS-Git-Challenge/
+Link to application: https://github.com/mcquo011/Portfolio
 
 ## Contributing
 
@@ -26,11 +26,11 @@ HTML and CSS style sheet by Maggie McQuown.
 
 Gif of my website
 
-![Alt text](/MyWork/images/My%20Portfolio.gif?raw=true "Screenshot of App")
+![Alt text](/MyWork/images/My%20Portfolio.gif "Screenshot of App")
 
 Image showing responsive layout
 
-![Alt text](/MyWork/images/responsive.png?raw=true "Screenshot of App")
+![Alt text](/MyWork/images/responsive.png "Screenshot of App")
 
 ## License
 
